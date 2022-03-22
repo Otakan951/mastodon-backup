@@ -1,0 +1,14 @@
+[common]
+temporary_dir =
+
+[mstdn_media]
+media_path=
+target_image1 =
+target_image2 =
+target_image3 =
+target_image4 =
+
+[postgreSQL_info]
+postgresql_container =
+db_user =
+db_name =
