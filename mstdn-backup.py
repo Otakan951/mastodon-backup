@@ -8,7 +8,7 @@ from distutils import dir_util
 config = configparser.ConfigParser()
 config.read('config.ini', encoding='utf-8')
 
-temp_dir = config['common']['temp_dir']
+temp_dir = config['common']['temporary_dir']
 media_path = config['mstdn_media']['media_path']
 target_image1 = config['mstdn_media']['target_image1']
 target_image2 = config['mstdn_media']['target_image2']
