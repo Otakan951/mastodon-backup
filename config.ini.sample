@@ -1,5 +1,5 @@
 [common]
-temporary_dir = /tmp
+work_dir = /tmp
 
 [mstdn_media]
 media_path= /mastodon/public/system
