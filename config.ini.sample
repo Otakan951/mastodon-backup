@@ -1,14 +1,14 @@
 [common]
-temporary_dir =
+temporary_dir = /tmp
 
 [mstdn_media]
-media_path=
-target_image1 =
-target_image2 =
-target_image3 =
-target_image4 =
+media_path= /mastodon/public/system
+target_image1 = /accounts/
+target_image2 = /custom_emojis/
+target_image3 = /media_attachments/
+target_image4 = /site_uploads/
 
 [postgreSQL_info]
-postgresql_container =
-db_user =
-db_name =
+postgresql_container = mastodon-db-1
+db_user = mastodon
+db_name = mastodon_production
