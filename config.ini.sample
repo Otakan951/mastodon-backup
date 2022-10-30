@@ -1,8 +1,11 @@
 [common]
-work_dir = /tmp
+work_path = /tmp
+mstdn_path= /mastodon/
+token = xxxxxxxx
+domain = mstdn.example.com
+visibility = unlisted
 
 [mstdn_media]
-media_path= /mastodon/public/system
 target_image1 = /accounts/
 target_image2 = /custom_emojis/
 target_image3 = /media_attachments/
