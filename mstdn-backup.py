@@ -12,8 +12,9 @@ month = dt_now.strftime('%Y%m')
 day = dt_now.strftime('%d')
 date = day + dt_now.strftime('%d%H%M%S')
 
+config_file = os.path.dirname(os.path.abspath(__file__)) + "/config.ini"
 config = configparser.ConfigParser()
-config.read('config.ini', encoding='utf-8')
+config.read(config_file, encoding='utf-8')
 
 work_path = config['common']['work_path']
 mstdn_path = config['common']['mstdn_path']
